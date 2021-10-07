@@ -1,0 +1,40 @@
+.swiper {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.swiper-slide {
+    text-align: center;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.swiper-slide h1 {
+    font-size: xx-large;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+}
+
+.swiper-slide span {
+    padding-top: 6rem;
+    font-size: large;
+    font-weight: 500;
+    color: #dadada;
+    position: absolute;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
